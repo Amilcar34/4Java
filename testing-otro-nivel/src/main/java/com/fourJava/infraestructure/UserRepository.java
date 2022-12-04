@@ -1,19 +1,15 @@
 package com.fourJava.infraestructure;
 
+import static java.util.stream.Collectors.toList;
+
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.function.Predicate;
 
-import static java.util.stream.Collectors.toList;
-
-import java.util.Collection;
-
 import javax.enterprise.context.ApplicationScoped;
-import javax.ws.rs.core.Response;
-
-import org.springframework.stereotype.Service;
 
 import com.fourJava.domain.User;
 

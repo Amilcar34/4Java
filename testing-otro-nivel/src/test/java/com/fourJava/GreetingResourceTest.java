@@ -28,10 +28,10 @@ import org.junit.jupiter.api.Test;
 
 import io.quarkus.test.junit.QuarkusTest;
 
-//@QuarkusTest
+@QuarkusTest
 public class GreetingResourceTest {
 
-//	@Test
+	@Test
 	public void reviewAnnotationApplicationScopedInServices() throws ClassNotFoundException {
 		getClassesForPackage(PACKAGE_INFRAESTRUCTURE).forEach(entity -> {
 			if (entity.getName().contains("Service") && !entity.getName().contains("$1")) {
@@ -47,21 +47,21 @@ public class GreetingResourceTest {
 	}
 
 	// Test Arq RESTful
-//	@Test
+	@Test
 	public void reviewNotVerbInPathByRest() throws ClassNotFoundException {
 		getClassesForPackage(PACKAGE_REST).forEach(entity -> {
 			validateVerbInPath(entity);
 		});
 	}
 
-//	@Test
+	@Test
 	public void reviewNotPrepositionInPathByRest() throws ClassNotFoundException {
 		getClassesForPackage(PACKAGE_REST).forEach(entity -> {
 			validatePrepositionInPath(entity);
 		});
 	}
 
-//	@Test
+	@Test
 	public void reviewReturnValidTypeData() throws ClassNotFoundException {
 		getClassesForPackage(PACKAGE_REST).forEach(entity -> {
 			validateTypeData(entity);

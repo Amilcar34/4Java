@@ -4,7 +4,6 @@ import java.util.Collection;
 import java.util.List;
 
 import javax.inject.Inject;
-import javax.ws.rs.core.Response;
 
 import org.springframework.stereotype.Service;
 

@@ -4,21 +4,21 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
-
 import com.fourJava.infraestructure.UserService;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
 import javax.inject.Inject;
 
-@Path("/users")
+@Path("/v2/users")
 @Produces(APPLICATION_JSON)
-public class UserResource {
+public class UserResourceJavax {
 
 	@Inject
 	UserService userService;
 	
 	@GET
+	@Path("/stringHello")
 	public String hello() {
 		return "Hello from RESTEasy Reactive";
 	}
