@@ -1,6 +1,6 @@
 # testing-otro-nivel
 
-Este proyecto emplea el testing para garantizar que la arquitecturas REST del proyecto se este cumpliendo.
+Este repositorio tiene como finalidad contener ejemplos de los videos subidos a [mi canal](https://www.youtube.com/channel/UCJ4xVNp3zINYRMu7bkOsnkA) 
 
 ## Pre requisitos
 
