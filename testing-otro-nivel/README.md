@@ -12,7 +12,7 @@ Este proyecto emplea el testing para garantizar que la arquitecturas REST del pr
 
 Este proyecto usa Quarkus, un micro Framework de Java. Si quiere saber mas de quarkus visite esta pagina: https://quarkus.io/ .
 
-Puede ejecutar esta aplicación en modo ´dev´, que permite la codificación en vivo ejecutar con terminal desde la raiz del proyecto:
+Puede ejecutar esta aplicación en modo ´dev´, que permite la codificación en vivo. Desde la raiz del proyecto:
 
 ``` mvn clean compile quarkus:dev```
 
