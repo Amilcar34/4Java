@@ -26,7 +26,7 @@ Puede ejecutar esta aplicación en modo ´dev´, que permite la codificación en
 
 ## ☕ Contribuciones
 
-[4java](https://cafecito.app/4java)
+[1 cafecito para 4java](https://cafecito.app/4java)
 
 ## 🤔 Guías recomendadas con el framework
 
